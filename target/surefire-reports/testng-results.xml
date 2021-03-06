@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-06T16:59:58Z" name="Suite" finished-at="2021-03-06T17:01:51Z" duration-ms="112300">
+    <groups>
+    </groups>
+    <test started-at="2021-03-06T16:59:58Z" name="Test" finished-at="2021-03-06T17:01:51Z" duration-ms="112300">
+      <class name="testcasespackage.OrangeHRMTests">
+        <test-method is-config="true" signature="reports()[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T16:59:57Z" name="reports" finished-at="2021-03-06T16:59:58Z" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T16:59:58Z" name="setUp" finished-at="2021-03-06T17:00:13Z" duration-ms="15018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:00:13Z" name="loginTest" finished-at="2021-03-06T17:00:22Z" duration-ms="8594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:00:22Z" name="tearDown" finished-at="2021-03-06T17:00:28Z" duration-ms="6024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:00:28Z" name="setUp" finished-at="2021-03-06T17:00:40Z" duration-ms="11672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginTitle()[pri:2, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:00:40Z" name="verifyLoginTitle" finished-at="2021-03-06T17:00:48Z" duration-ms="7913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:00:48Z" name="tearDown" finished-at="2021-03-06T17:00:54Z" duration-ms="5954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:00:54Z" name="setUp" finished-at="2021-03-06T17:01:05Z" duration-ms="11672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="usersTest()[pri:3, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:01:05Z" name="usersTest" finished-at="2021-03-06T17:01:17Z" duration-ms="11360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:01:17Z" name="tearDown" finished-at="2021-03-06T17:01:22Z" duration-ms="5880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:01:22Z" name="setUp" finished-at="2021-03-06T17:01:34Z" duration-ms="11740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogoutTest()[pri:4, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:01:34Z" name="LogoutTest" finished-at="2021-03-06T17:01:45Z" duration-ms="10415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:01:45Z" name="tearDown" finished-at="2021-03-06T17:01:51Z" duration-ms="6017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="reportsTear()[pri:0, instance:testcasespackage.OrangeHRMTests@2b40ff9c]" started-at="2021-03-06T17:01:51Z" name="reportsTear" finished-at="2021-03-06T17:01:53Z" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsTear -->
+      </class> <!-- testcasespackage.OrangeHRMTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
