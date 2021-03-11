@@ -9,6 +9,7 @@ import com.aventstack.extentreports.Status;
 import basepackage.Base;
 import pagespackage.HomePage;
 import pagespackage.LoginPage;
+import pagespackage.UsersPage;
 
 public class OrangeHRMTests extends Base{
 	
@@ -66,6 +67,23 @@ public class OrangeHRMTests extends Base{
 		home.logoutFromApp();
 		Assert.assertEquals("https://opensource-demo.orangehrmlive.com/index.php/auth/login", home.verifyUsersPage());
 		test.pass("Logout Test is Success");
+		
+	}
+	
+	
+	@Test(priority=5)
+	public void TableValidations()
+	{
+		
+		test = extent.createTest("Table Validations", "Simple Valiation Test").log(Status.INFO, "Validation Test Started");
+		login = new LoginPage();
+		home = new HomePage();
+		UsersPage user = new UsersPage();
+		login.loginToApplication(props.getProperty("username"), props.getProperty("password"));
+		home.goToUsers();
+		user.usersInTable();
+		home.logoutFromApp();
+		
 		
 	}
 	
